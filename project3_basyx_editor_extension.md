@@ -1,6 +1,6 @@
 ## Projekt 3: **BaSyx Editor-Plugin-Erweiterung**
 
-Für das [BaSyx-GUI-Projekt](https://github.com/eclipse-basyx/basyx-applications/tree/main/aas-gui) gibt es eine Reihe von [Anforderungen im Ticket-System](https://github.com/eclipse-basyx/basyx-applications/issues/240), welche als Anforderungsgrundlage verwendet werden sollen. 
+Für das [BaSyx-GUI-Projekt](https://github.com/eclipse-basyx/basyx-aas-web-ui) gibt es bereits eine Reihe von [Anforderungen im Ticket-System](https://github.com/eclipse-basyx/basyx-applications/issues/240), welche als Anforderungsgrundlage verwendet werden sollen. 
 Das Projekt [AAS-Manager](https://github.com/rwth-iat/aas_manager) ist ebenfalls in Betracht zu ziehen.
 
 ![image](https://github.com/user-attachments/assets/34d6e4bf-d1eb-443f-98cb-9d3f75068bf2)
