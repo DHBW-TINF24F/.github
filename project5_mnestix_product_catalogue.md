@@ -23,7 +23,7 @@ Inhaltlich geht es dabei um einige Fehlerbehebungen, Featureerweiterungen sowie 
 - Nur anzeigen von AASen mit AssteKind==Type, Ausblenden von AASen bspw. mit AssetKind == NotApplicable.
 - Beim Laden der Shell-Listen sollen per Query-Parametern einstellbare Filterparameter zurückgeliefert werden und somit eine Filterung oder Sortierung der kompletten Shell-Liste ermöglichen.
 - Das Laden der Thumbnails/Bilder soll nur für den angezeigten Ausschnitt erfolgen.
-- In der Listenansicht Anzeige von Spalten mit ManfacturerName, ProductDesignation, OrderCode, ManufacturerCode und globalAssetId und DateLastChanged.
+- In der Listenansicht Anzeige von Spalten mit ManfacturerName, ProductDesignation, OrderCode, ManufacturerCode und globalAssetId und [createdAt](https://github.com/admin-shell-io/aas-specs-metamodel/issues/484).
 - Spaltensortierung soll möglich sein
 
 ### In der Produktansicht:
