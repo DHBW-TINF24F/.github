@@ -8,14 +8,14 @@ Der CD-Manager soll eine sortierbare Listenansicht ähnlich wie hier bereitstell
 <img width="1578" height="845" alt="image" src="https://github.com/user-attachments/assets/1b0df5f9-2a12-489e-8af2-a2c4fa53cb87" />    
 
 Ergänzend soll ein IEC-Importer implementiert werden, der einen kompletten IEC-CDD-Datensatz in das CD-Repository einlesen kann. 
-Hierzu soll die URL auf das entsprechende CDD-Merkmal (z.B. https://cdd.iec.ch/CDD/IEC61360/iec61360.nsf/PropertiesAllVersions/0112-2---61360_4%23AAE530) übergeben werden, dann ein Algorithmus die Inhalte extrahieren der aufgerufenen Webseite extrahieren und in das Format des [DataSpecificationIec61360-Template](https://industrialdigitaltwin.io/aas-specifications/IDTA-01003-a/v3.1.1/index.html) überführen.
+Hierzu soll die URL auf das entsprechende CDD-Merkmal (z.B. https://cdd.iec.ch/CDD/IEC61360/iec61360.nsf/PropertiesAllVersions/0112-2---61360_4%23AAE530) übergeben werden, dann ein Algorithmus die Inhalte der aufgerufenen Webseite extrahieren und in das Format des [DataSpecificationIec61360-Template](https://industrialdigitaltwin.io/aas-specifications/IDTA-01003-a/v3.1.1/index.html) überführen.
 
 <img width="2347" height="1220" alt="image" src="https://github.com/user-attachments/assets/cb7c3f4c-7fe1-4402-ac27-e008acc1e49f" />
 
 
 **Folgende Teilaufgaben müssen dabei im Wesentlichen bearbeitet werden:**
 
-1. Einarbeitung: Den [AASX-Explorer](https://github.com/eclipse-aaspe/package-explorer/releases) installieren und eine BaySyx-Infrastruktur [aufsetzen](https://basyx.org/get-started/introduction) aufsetzen.
+1. Einarbeitung: Den [AASX-Explorer](https://github.com/eclipse-aaspe/package-explorer/releases) installieren und eine [BaySyx-Infrastruktur aufsetzen](https://basyx.org/get-started/introduction).
 2. Hierzu die vorhandenen Tutorials anwenden, bewerten und identifizierte Lücken in den Tutorials verbessern.
 3. Einarbeitung in das Thema "Concept Descriptions" (z.B. [https://www.youtube.com/@aas-connect](https://www.youtube.com/watch?v=AoRxfgkSVr4)).
 4. Forken der benötigten [Basyx-Repositories](https://github.com/eclipse-basyx/basyx-aas-web-ui).
