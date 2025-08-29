@@ -1,16 +1,18 @@
 ## Projekt 1: **BaSyx ConceptDescription-Plugin**
 
 
-["ConceptDescription" (CD)](https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.2/spec-metamodel/concept-description.html) ist ein von der AAS definiertes Konzept für semantische Datenbanken, basierend auf dem [DataSpecificationIec61360-Template](https://industrialdigitaltwin.io/aas-specifications/IDTA-01003-a/v3.1.1/index.html). Für das [BaSyx-GUI-Projekt](https://github.com/eclipse-basyx/basyx-aas-web-ui) gibt es eine Anforderung im Ticket-System für einen [Concept-Description-Manager](https://github.com/eclipse-basyx/basyx-aas-web-ui/issues/169), was als Grundlage für dieses Projekt verwendet werden soll. 
+["ConceptDescription" (CD)](https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.2/spec-metamodel/concept-description.html) ist ein von der AAS definiertes Konzept für semantische Datenbanken, basierend auf dem [DataSpecificationIec61360-Template](https://industrialdigitaltwin.io/aas-specifications/IDTA-01003-a/v3.1.1/index.html). Für das [BaSyx-GUI-Projekt](https://github.com/eclipse-basyx/basyx-aas-web-ui) gibt es eine Anforderung im Ticket-System für ein [Concept-Description-Plugin](https://github.com/eclipse-basyx/basyx-aas-web-ui/issues/169), was als Grundlage für dieses Projekt verwendet werden soll. 
 
-Der CD-Manager soll eine sortierbare Listenansicht ähnlich wie hier bereitstellen:    
+Das [Open-Source Projekt AAS-Brain](https://github.com/mhrimaz/aasbrain-concept-description-repo) soll auch als Ideenlieferant analysiert werden. 
+
+Das **BaSyx ConceptDescription-Plugin** (aka CD-Manager) soll ein webbasiertes UI bereitstellen, u.A. mit einer sortierbaren Listenansicht ähnlich wie hier:    
 
 <img width="1578" height="845" alt="image" src="https://github.com/user-attachments/assets/1b0df5f9-2a12-489e-8af2-a2c4fa53cb87" />    
 
-Ergänzend soll ein IEC-Importer implementiert werden, der einen kompletten IEC-CDD-Datensatz in das CD-Repository einlesen kann. 
+Ergänzend zu den typischen [CRUD-Funktionalitäten](https://de.wikipedia.org/wiki/CRUD) soll ein IEC-Importer implementiert werden, der einen kompletten IEC-CDD-Datensatz in das CD-Repository einlesen kann. 
 Hierzu soll die URL auf das entsprechende CDD-Merkmal (z.B. https://cdd.iec.ch/CDD/IEC61360/iec61360.nsf/PropertiesAllVersions/0112-2---61360_4%23AAE530) übergeben werden, dann ein Algorithmus die Inhalte der aufgerufenen Webseite extrahieren und in das Format des [DataSpecificationIec61360-Template](https://industrialdigitaltwin.io/aas-specifications/IDTA-01003-a/v3.1.1/index.html) überführen.
 
-<img width="2347" height="1220" alt="image" src="https://github.com/user-attachments/assets/cb7c3f4c-7fe1-4402-ac27-e008acc1e49f" />
+<img width="2347" height="1220" alt="image" src="https://github.com/user-attachments/assets/cb7c3f4c-7fe1-4402-ac27-e008acc1e49f" />     
 
 
 **Folgende Teilaufgaben müssen dabei im Wesentlichen bearbeitet werden:**
@@ -23,7 +25,7 @@ Hierzu soll die URL auf das entsprechende CDD-Merkmal (z.B. https://cdd.iec.ch/C
 6. Analyse des [BaSyx-UIs](https://wiki.basyx.org/en/latest/content/user_documentation/basyx_components/web_ui/index.html), Definition eines Usability-Konzeptes und Workflows für die CD-Manager-Anwendungsfälle.
 7. Implementierung und Test der Funktionalitäten
 8. Hosting der Funktionalität auf einem über das Internet zugänglichen Demo-Server
-9. Erstellung und Verlinkung einer strukturierten Online-Benutzerdokumentation im BaSyx-Github.
+9. Erstellung und Verlinkung einer strukturierten Online-Benutzerdokumentation für das enue Plugin im BaSyx-Github.
 10. Akzeptanzfindung für die erstellte Lösung im Open-Source-Projekt herbeiführen
 
 __Beispiel DataSpecificationIec61360-Template in JSON:__
