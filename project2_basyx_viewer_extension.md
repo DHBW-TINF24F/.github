@@ -8,17 +8,12 @@ Für das vorliegende Projekt soll für das BaSyx-UI das AAS-Viewer-Plugin erweit
 Im Rahmen der Aufgabe soll das Open-Source-Projekt  weiterentwickelt und insbesondere die Usability verbessert werden. Betrachtet werden sollen vor allem die [Submodelle](https://github.com/admin-shell-io/submodel-templates/tree/main/published) 
 „**Digital Nameplate**“, „**Technical Data**“, „**HandoverDocumentation**“, „**Hierarchical Structures enabling Bills of Material**“, „**Bill of Process**“, **„ServiceRequestNotification“** sowie **"CommercialData/PurchaseRequest"**. 
 Der [Nameplate-Generator](https://github.com/TTRSF/TINF22F-Nameplate-Generator) soll in das [Submodel-Plugin](https://github.com/eclipse-basyx/basyx-aas-web-ui/tree/main/aas-web-ui/src/components/SubmodelPlugins) „Digital Nameplate“ integriert werden. 
-Das Submodel-Plugin [„Bills of Material“](https://github.com/eclipse-basyx/basyx-aas-web-ui/blob/main/aas-web-ui/src/components/SubmodelPlugins/BillsOfMaterial.vue) soll weiterentwickelt werden, um Catena-X-konforme BOMs (Aspect Model „SingleLevelBomAsPlanned/Built“) zu unterstützen.
 
 __Im Plugin sollen folgende Anwendungsfälle unterstützt werden__:
 
-1. JSON-Editor für die AAS mit Validierung vor dem Speichern
-2. Anzeige, Export, Import, Copy & Paste von JSON Bestandteilen sollen auf jeder Gliederungsebene der AAS möglich sein.
-3. Wizard zum Hinzufügen von Submodellen zu einer AAS verbessern.
-4. Submodell zu AAS hinzufügen.
-5. Der Submodell-Baum einer AAS soll angezeigt werden können. Inhaltlich noch nicht vollständig befüllte Submodelle oder Attribute sollen optisch hervorgehoben werden (z.B. rot markiert).
-6. Externe Modell-Dateien sollen zur AAS hinzugefügt werden können. Nach einer Plausibilitätsprüfung soll eine definitionsgemäße Verlinkung mit passendem MimeType der ausgewählten Datei in der Verwaltungsschale erfolgen.
-7. Beim Laden einer KBL- oder VEC-Datei soll diese inhaltlich analysiert und die Nameplate-Informationen sowie relevante Technischen Daten (z.B. Gewicht, Features des Leitungssatzes) extrahiert und in ein AAS-Submodel „[General Technical Data](https://github.com/admin-shell-io/submodel-templates/tree/main/published/Technical_Data/1/2)“ überführt werden können.
+1. Listensortierung soll möglich sein nach den relevanten Spaltenkriterien. Insbesondere soll die Datumsabhängige Sortierung nach createdAt/updated Atmöglich sein. Hierzu muss ggf. der REST-API-Endpunkt /shells um Query-Parameter erweitert werden.
+2. Der Submodell-Baum einer AAS soll angezeigt werden können. Inhaltlich noch nicht vollständig befüllte Submodelle oder Attribute sollen optisch hervorgehoben werden (z.B. rot markiert).
+
 
 **Folgende Teilaufgaben müssen im Wesentlichen bearbeitet werden:**
 
