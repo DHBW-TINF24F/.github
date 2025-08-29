@@ -1,19 +1,18 @@
 ## Projekt 2: **BaSyx Viewer-Plugin-Erweiterung**
 
-Für das [BaSyx-GUI-Projekt](https://github.com/eclipse-basyx/basyx-aas-web-ui) gibt es eine Reihe von [Anforderungen im Ticket-System](https://github.com/eclipse-basyx/basyx-applications/issues/240), welche als Anforderungsgrundlage verwendet werden sollen. 
+Für das vorliegende Projekt soll für das BaSyx-UI das AAS-Viewer-Plugin erweitert werden. 
+Für das [BaSyx-GUI-Projekt](https://github.com/eclipse-basyx/basyx-aas-web-ui) gibt es eine Reihe von [Anforderungen im Ticket-System](https://github.com/eclipse-basyx/basyx-aas-web-ui/issues), welche auch als Anforderungsgrundlage verwendet werden sollen. 
 
 ![image](https://github.com/user-attachments/assets/34d6e4bf-d1eb-443f-98cb-9d3f75068bf2)
 
-Für das vorliegende Projekt soll für das BaSyx-UI das AAS-Viewer-Plugin erweitert werden. 
 Im Rahmen der Aufgabe soll das Open-Source-Projekt  weiterentwickelt und insbesondere die Usability verbessert werden. Betrachtet werden sollen vor allem die [Submodelle](https://github.com/admin-shell-io/submodel-templates/tree/main/published) 
 „**Digital Nameplate**“, „**Technical Data**“, „**HandoverDocumentation**“, „**Hierarchical Structures enabling Bills of Material**“, „**Bill of Process**“, **„ServiceRequestNotification“** sowie **"CommercialData/PurchaseRequest"**. 
 Der [Nameplate-Generator](https://github.com/TTRSF/TINF22F-Nameplate-Generator) soll in das [Submodel-Plugin](https://github.com/eclipse-basyx/basyx-aas-web-ui/tree/main/aas-web-ui/src/components/SubmodelPlugins) „Digital Nameplate“ integriert werden. 
 
-__Im Plugin sollen folgende Anwendungsfälle unterstützt werden__:
-
-1. Listensortierung soll möglich sein nach den relevanten Spaltenkriterien. Insbesondere soll die Datumsabhängige Sortierung nach createdAt/updated Atmöglich sein. Hierzu muss ggf. der REST-API-Endpunkt /shells um Query-Parameter erweitert werden.
-2. Der Submodell-Baum einer AAS soll angezeigt werden können. Inhaltlich noch nicht vollständig befüllte Submodelle oder Attribute sollen optisch hervorgehoben werden (z.B. rot markiert).
-
+- Die AAS-Übesicht soll Listensortierung/-filteung nach relevanten Spaltenkriterien untestützen (z.B. ManfacturerName, ProductDesignation, OrderCode, ManufacturerCode und globalAssetId und createdAt).
+- Insbesondere soll die datumsabhängige Sortierung nach createdAt/updatedAt möglich sein. Hierzu muss ggf. der REST-API-Endpunkt /shells um Query-Parameter erweitert werden.
+- Beim Laden der Shell-Listen sollen damit per Query-Parametern einstellbare Filterparameter zurückgeliefert werden und somit eine Filterung oder Sortierung der kompletten Shell-Liste ermöglichen.
+- Das Laden der Thumbnails/Bilder soll nur für den angezeigten Ausschnitt erfolgen.
 
 **Folgende Teilaufgaben müssen im Wesentlichen bearbeitet werden:**
 
