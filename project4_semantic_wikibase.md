@@ -1,10 +1,11 @@
 ## Projekt 4: **Semantic Wikibase**
 
-Mittels [Konzeptbeschreibungen (Concept Description)](https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.2/spec-metamodel/concept-description.html) kann die AAS ein eigenes Wörterbuch definieren, das semantische Definitionen seiner Submodell-Elemente enthält, basierend auf der Data Specification der IEC 61360.
-Das [IEC61360-Datentemplate](https://industrialdigitaltwin.io/aas-specifications/IDTA-01003-a/v3.1.1/index.html) ist jedoch nicht für alle Anwendungsfälle gleichermassen gut geeignet.    
-<img width="158" height="224" alt="image" src="https://github.com/user-attachments/assets/5928aecf-82ad-48fe-815f-f1e6fa0da4ca" />    
-
-Es gibt eine ergänzende [Guideline](https://industrialdigitaltwin.org/wp-content/uploads/2024/10/2024-10_IDTA_ECLASS_Semantic_Transport_ECLASS_in_AAS_1.0.pdf) zum Mapping von ECLASS-Definitionen.
+Mittels [Konzeptbeschreibungen (Concept Description)](https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.2/spec-metamodel/concept-description.html) kann die AAS ein eigenes Wörterbuch definieren, das semantische Definitionen seiner Submodell-Elemente enthält, basierend auf der Data Specification der IEC 61360.   
+<img width="158" height="224" alt="image" src="https://github.com/user-attachments/assets/5928aecf-82ad-48fe-815f-f1e6fa0da4ca" />       
+Der aktuelle Ansatz weist jedoch Schwächen auf:
+- Das [IEC61360-Datentemplate](https://industrialdigitaltwin.io/aas-specifications/IDTA-01003-a/v3.1.1/index.html) ist jedoch nicht für alle Anwendungsfälle gleichermassen gut geeignet.
+- Ein CD-Repository ist üblicherweise an sein lokales AAS-Repository gebunden, d.h. nicht repositoryübergreifend anwendbar.
+- Global verfügbare semantische Datenbanken wie IEC-CDD oder ECLASS verfügen oft über unzureichende webbasierte APIs.
 
 - Das aktuelle Konzept der AAS Concept Description und semantischen Referenzierungen ist für repositoryübergreifende Anwendungen nur bedingt einsetzbar, vor allem weil es für IRDIs kein hinreichend ausdefiniertes webbasiertes Konzept und keine gemanagte Infrastruktur für repositoryübergreifende CDs gibt. 
 - ECLASS und IEC-Referenzinhalte sind nicht hürdenfrei über das Web abfragbar und haben sehr träge Prozesse zur Standardisierung neuer Merkmale
@@ -12,6 +13,8 @@ Es gibt eine ergänzende [Guideline](https://industrialdigitaltwin.org/wp-conten
 - Die jetzigen AAS-Spezifikationen verfolgen keine konsequente Ausrichtung auf eine webbasierte Servicearchitektur, stattdessen dominieren veraltete Konzepte auf IRDI-Basis.
 
 Siehe auch Diskussion unter: https://github.com/admin-shell-io/aas-specs-metamodel/issues/595, https://github.com/admin-shell-io/aas-specs-metamodel/issues/548, https://github.com/admin-shell-io/aas-specs-metamodel/issues/250
+
+Siehe auch die ergänzende [Guideline](https://industrialdigitaltwin.org/wp-content/uploads/2024/10/2024-10_IDTA_ECLASS_Semantic_Transport_ECLASS_in_AAS_1.0.pdf) zum Mapping von ECLASS-Definitionen und den (kostenpflichtigen) [ECLASS-Webservice](https://eclass.eu/support/technical-specification/data-model/-eclass-webservice)
 
 [Wikibase](https://de.wikipedia.org/wiki/Wikibase) könnte eine geeignete Plattform sein, um die semantische Referenzierung für die AAS in der Breite zu etablieren. 
 URIs kann man frei über Rewrite-Rules auf dem Server definieren: https://www.semantic-mediawiki.org/wiki/Help:Pretty_URIs
