@@ -10,62 +10,22 @@ Dies umfasst die typischen Phasen Analyse, Design, Implementierung bis zum Test 
 
 Es sollen die in den Vorlesungen besprochenen Techniken zur Anwendung kommen.
 
-Es werden Projektthemen mit ähnlichem Schwierigkeitsgrad für 4 Teams angeboten. Bei Unstimmigkeiten unter den Teams, wer welches Projekt machen möchte, treffen die Dozenten die finale Zuweisung. Folgende Themen werden bearbeitet:
+Es werden Projektthemen mit ähnlichem Schwierigkeitsgrad für 6 Teams angeboten. Bei Unstimmigkeiten unter den Teams, wer welches Projekt machen möchte, treffen die Dozenten die finale Zuweisung. Folgende Themen werden bearbeitet:
 
-### **Team 1: [BaSyx ConceptDescription Plugin](https://github.com/DHBW-TINF24F/.github/blob/main/project1.md)**
+### Team 1:  [BaSyx ConceptDescription Manager](https://github.com/DHBW-TINF24F/.github/blob/main/project1_basyx_cd_manager.md)
 
-| **Rolle** | **Name** | **eMail** |
-| --- | --- | --- |
-| Projektleiter | Karl Mustermann | inf12345xyz.dhbw-stuttgart.de |
-| Produktmanager | tbd | inf12345xyz.dhbw-stuttgart.de |
-| Testmanager | tbd | inf12345xyz.dhbw-stuttgart.de |
-| Systemarchitekt | tbd | inf12345xyz.dhbw-stuttgart.de |
-| UI/UX-Architekt | tbd | inf12345xyz.dhbw-stuttgart.de    |
-| Dokumentation | tbd | inf12345xyz.dhbw-stuttgart.de |
-| Entwickler | tbd | inf12345xyz.dhbw-stuttgart.de|
+### Team 2:  [BaSyx Viewer](https://github.com/DHBW-TINF24F/.github/blob/main/project2_basyx_viewer_extension.md)
 
-GIT-Repository: <https://github.com/DHBW-TINF23F/Team1-BaSyx-Security-Plugin>
+### Team 3:  [BaSyx Editor](https://github.com/DHBW-TINF24F/.github/blob/main/project3_basyx_editor_extension.md)
 
-### **Team 2:  [BaSyx Webclient](https://github.com/DHBW-TINF24F/.github/blob/main/project2.md)**
+### Team 4:  [Semantic Wikibase](https://github.com/DHBW-TINF24F/.github/blob/main/project4_semantic_wikibase.md)
 
-| **Rolle** | **Name** | **eMail** |
-| --- | --- | --- |
-| Projektleiter | Karl Mustermann | inf12345xyz.dhbw-stuttgart.de |
-| Produktmanager | tbd | inf12345xyz.dhbw-stuttgart.de |
-| Testmanager | tbd | inf12345xyz.dhbw-stuttgart.de |
-| Systemarchitekt | tbd | inf12345xyz.dhbw-stuttgart.de |
-| UI/UX-Architekt | tbd | inf12345xyz.dhbw-stuttgart.de    |
-| Dokumentation | tbd | inf12345xyz.dhbw-stuttgart.de |
-| Entwickler | tbd | inf12345xyz.dhbw-stuttgart.de|
-GIT-Repository:  <https://github.com/DHBW-TINF23F/Team2-BaSyx-WebClient>
+### Team 5:  [Mnestix ProductCatalogue](https://github.com/DHBW-TINF24F/.github/blob/main/project5_mnestix_product_catalogue.md)
 
-### **Team 3:  [BaSyx Editor Plugin](https://github.com/DHBW-TINF24F/.github/blob/main/project3.md)**
+### Team 6:  [DPP API](https://github.com/DHBW-TINF24F/.github/blob/main/project6_dpp_api.md)
 
-| **Rolle** | **Name** | **eMail** |
-| --- | --- | --- |
-| Projektleiter | Karl Mustermann | inf12345xyz.dhbw-stuttgart.de |
-| Produktmanager | tbd | inf12345xyz.dhbw-stuttgart.de |
-| Testmanager | tbd | inf12345xyz.dhbw-stuttgart.de |
-| Systemarchitekt | tbd | inf12345xyz.dhbw-stuttgart.de |
-| UI/UX-Architekt | tbd | inf12345xyz.dhbw-stuttgart.de    |
-| Dokumentation | tbd | inf12345xyz.dhbw-stuttgart.de |
-| Entwickler | tbd | inf12345xyz.dhbw-stuttgart.de|
-
-GIT-Repository:  <https://github.com/DHBW-TINF23F/Team3-BaSyx-Editor-Plugin>
-
-### **Team 4:  [Mnestix Webclient](https://github.com/DHBW-TINF24F/.github/blob/main/project4.md)**
-
-| **Rolle** | **Name** | **eMail** |
-| --- | --- | --- |
-| Projektleiter | Karl Mustermann | inf12345xyz.dhbw-stuttgart.de |
-| Produktmanager | tbd | inf12345xyz.dhbw-stuttgart.de |
-| Testmanager | tbd | inf12345xyz.dhbw-stuttgart.de |
-| Systemarchitekt | tbd | inf12345xyz.dhbw-stuttgart.de |
-| UI/UX-Architekt | tbd | inf12345xyz.dhbw-stuttgart.de    |
-| Dokumentation | tbd | inf12345xyz.dhbw-stuttgart.de |
-| Entwickler | tbd | inf12345xyz.dhbw-stuttgart.de|
-
-GIT-Repository:  <https://github.com/DHBW-TINF23F/Team4-Mnestix-WebClient>
+Jedes Projektteam verwaltet sein Projekt in einem eigenen GIT-Repository mit folgendem Namensschema:   
+<https://github.com/DHBW-TINF24F/Team1-Basyx-CD-Manager>
 
 ### **FAQ**
 
@@ -86,7 +46,7 @@ A: Um die Wertigkeit der Projektarbeit für Sie zu steigern, wird angeregt, dies
 - Die Studenten können später in Ihrem Lebenslauf auf Mitarbeit an einem veröffentlichten Open-Source-Projekt verweisen.
 - Die Dozenten können die Software von nachfolgenden Studenten-Jahrgängen weiterentwickeln lassen (siehe rechtliche Hinweise weiter unten).
 
-Beispiele:
+**Beispiele:**
 
 - <https://autarchprinceps.github.io/MultiCastor/>
 - <https://github.com/GoranErdeljan/TINF19C-Team-4-Service-Registry>
@@ -95,6 +55,7 @@ Beispiele:
 - <https://github.com/ilire0/TINF22F_Team-1_AAS-Webclient>
 - <https://github.com/MidFidelity/TINF21C_Team2_AAS_digital_nameplate>
 - <https://github.com/TTRSF/TINF22F-Team2-Nameplate-Generator>
+- <https://github.com/DHBW-TINF23F/Team3-BaSyx-Editor-Plugin>
 
 ---
 
@@ -197,7 +158,7 @@ Das entwickelte ausführbare Programm zusammen mit dem MANUAL hier ablegen:
 
 Bei der Übermittlung der Projektdateien in einem ZIP-Archiv müssen die oben geforderten Verzeichnisstrukturen enthalten sein. In jeder Übermittlung müssen auch die vorherigen bereits übermittelten Dateien miteingepackt sein, d.h. es soll immer ein vollständiger Projektordner übermittelt werden. **Das gibt Ihnen auch die Chance, ggf. noch Korrekturen bei den bereits abgegeben Dateien einzubringen. In dem Fall immer die Versionsnummer des Dokuments hochzählen.**
 
-Es sollen am Schluss alle Dokumente aus Semester 3 und 4 enthalten sein (die neuesten Versionen der Dokumente). Alle finalen Dokumente bitte als PDF UND im Originalformat (Word, MD oder HTML). Bitte KEINE getrennten Unterverzeichnisse für PDF und Originalformat.
+Es sollen am Schluss alle Dokumente aus Semester 3 und 4 enthalten sein (die neuesten Versionen der Dokumente). 
 
 **Einzelne Dokumente / Items**
 
