@@ -31,7 +31,8 @@ Jedes Projektteam verwaltet sein Projekt in einem eigenen GIT-Repository mit fol
 
 **F: Woher kommen die Projektvorschläge?**
 
-A: Die Projektvorschläge wurden von den Dozenten erstellt und sind meist in deren fachlicher Anwendungsdomäne angesiedelt. Das ermöglicht zusätzlichen Wissenstransfer im Rahmen der Projektarbeit. Infos zur Einarbeitung: [Tutorials & Resources](https://github.com/DHBW-TINF23F/.github/blob/main/turorials.md)
+A: Die Projektvorschläge wurden von den Dozenten erstellt und sind meist in deren fachlicher Anwendungsdomäne angesiedelt. Das ermöglicht zusätzlichen Wissenstransfer im Rahmen der Projektarbeit. 
+Infos zur Einarbeitung: [Tutorials & Resources](https://github.com/DHBW-TINF24F/.github/blob/main/Tutorials.md)
 
 **F: Muss ich alle auch optionalen Features implementieren?**
 
@@ -98,7 +99,7 @@ Achten Sie auf die in der Vorlesung behandelten Themen Requirements Engineering 
 
 **Designphase VL-Wochen 7-11**
 
-1. Legen Sie pro Team ein GitHub-Repository mit dem Root “**TINF23F/TeamNr/ProjektName**” an, in dem Sie ab dann Ihre Projektartefakte verwalten. Legen Sie dazu jeweils eine Verzeichnisstruktur an wie in Kapitel 1.6 „Dokumentation“ beschrieben.
+1. Legen Sie pro Team ein GitHub-Repository mit dem Root “**TINF24F/TeamNr/ProjektName**” an, in dem Sie ab dann Ihre Projektartefakte verwalten. Legen Sie dazu jeweils eine Verzeichnisstruktur an wie in Kapitel 1.6 „Dokumentation“ beschrieben.
 2. Richten Sie im Repository den Issue-Tracker für die diversen Dokumentreviews und das Team-Protokoll ein, mit jeweils einem eigenen Issue pro Dokument (d.h. CRS, BC, SRS, SAS, STP und für jedes MOD). In diesen Issues werden ggf. auch die jeweiligen Dokumentenstände angehängt.
 3. Erstellen Sie im Wiki des Repositories das Pflichtenheft (SRS), in dem das System aus Black-Box-Sicht definiert und modelliert wird.
 4. Erstellen Sie im Wiki des Repositories die Architekturspezifikation (SAS), modellieren Sie dort das System aus White-Box-Sicht. Leiten Sie die zu implementierenden Module daraus ab und weisen Sie diese im Projektplan als Arbeitspakete den Teammitgliedern zu. Legen Sie eine entsprechende Verzeichnisstruktur für die zugehörigen Sourcecodedateien in GitHub an.
@@ -140,9 +141,9 @@ Achten Sie auf die in der Vorlesung behandelten Themen Requirements Engineering 
 
 Bitte verwenden Sie für die Abgaben und im Repository (GitHub) **IMMER** folgendes Ablageschema. Denken Sie an die Versionierung der Dateien. Die Dateinamen sollen wie folgt aufgebaut sein:
 
-**TINF23F_CRS_Team_x_0v1**,
+**TINF24F_CRS_Team_x_0v1**,
 
-**TINF23F_MOD_Team_x_Modulname_0v1**
+**TINF24F_MOD_Team_x_Modulname_0v1**
 
 CRS, BC, SRS, SAS, MODs, STP, STR, Präsentationen und MeetingMinutes (bzw. Links auf deren Position im Wiki) hier ablegen (keine weiteren Unterverzeichnisse):
 
