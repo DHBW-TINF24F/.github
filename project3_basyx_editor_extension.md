@@ -3,17 +3,17 @@
 Für das [BaSyx-GUI-Projekt](https://github.com/eclipse-basyx/basyx-aas-web-ui) gibt es bereits eine Reihe von [Anforderungen im Ticket-System](https://github.com/eclipse-basyx/basyx-applications/issues/240), welche als Anforderungsgrundlage verwendet werden sollen, u.A. 
 https://github.com/admin-shell-io/aas-specs-api/issues/286. 
 
-Für das vorliegende Projekt soll für das BaSyx-UI das AAS-Editor-Plugin erweitert werden: 
+Für das vorliegende Projekt soll für das BaSyx-UI das AAS-Editor-Plugin und ggf. das REST-API-Backend erweitert werden: 
 ![image](https://github.com/user-attachments/assets/34d6e4bf-d1eb-443f-98cb-9d3f75068bf2)    
 
-Im Plugin sollen folgende Anwendungsfälle unterstützt werden:
-1. JSON-Editor für die AAS mit Validierung vor dem Speichern
-2. Anzeige, Export, Import, Copy & Paste von JSON Bestandteilen sollen auf jeder Gliederungsebene der AAS möglich sein.
-3. Wizard zum Hinzufügen von Submodellen zu einer AAS verbessern.
-4. Submodell zu AAS hinzufügen.
-5. Der Submodell-Baum einer AAS soll angezeigt werden können. Inhaltlich noch nicht vollständig befüllte Submodelle oder Attribute sollen optisch hervorgehoben werden (z.B. rot markiert).
-6. Externe Modell-Dateien sollen zur AAS hinzugefügt werden können. Nach einer Plausibilitätsprüfung soll eine definitionsgemäße Verlinkung mit passendem MimeType der ausgewählten Datei in der Verwaltungsschale erfolgen. Die REST-API soll erweitert werden (siehe https://github.com/admin-shell-io/aas-specs-api/issues/286), um in angehängte Datein "hineingreifen" zu können. 
-7. Beim Hinzufügen einer KBL- oder VEC-Datei soll diese inhaltlich analysiert und die Nameplate-Informationen sowie relevante Technischen Daten (z.B. Gewicht, Features des Leitungssatzes) extrahiert und in das AAS-Submodel „[General Technical Data](https://github.com/admin-shell-io/submodel-templates/tree/main/published/Technical_Data/1/2)“ überführt werden können.
+**Es sollen folgende Anwendungsfälle unterstützt werden:**
+1. Externe Modell-Dateien sollen zur AAS hinzugefügt werden können. Nach einer Plausibilitätsprüfung soll eine definitionsgemäße Verlinkung mit passendem MimeType der ausgewählten Datei in der Verwaltungsschale erfolgen. Die REST-API soll erweitert werden (siehe https://github.com/admin-shell-io/aas-specs-api/issues/286), um in angehängte XML-Dateien "hineingreifen" zu können. 
+2. Beim Hinzufügen einer KBL- oder VEC-Datei soll diese inhaltlich analysiert und die Nameplate-Informationen sowie relevante Technischen Daten (z.B. Gewicht, Features des Leitungssatzes) extrahiert und in das AAS-Submodel „[General Technical Data](https://github.com/admin-shell-io/submodel-templates/tree/main/published/Technical_Data/1/2)“ überführt werden können.
+3. JSON-Editor für die AAS mit Validierung vor dem Speichern
+4. Anzeige, Export, Import, Copy & Paste von JSON Bestandteilen sollen auf jeder Gliederungsebene der AAS möglich sein.
+5. Wizard zum Hinzufügen von Submodellen zu einer AAS verbessern.
+6. Submodell zu AAS hinzufügen.
+7. Der Submodell-Baum einer AAS soll angezeigt werden können. Inhaltlich noch nicht vollständig befüllte Submodelle oder Attribute sollen optisch hervorgehoben werden (z.B. rot markiert).
 
 **Folgende Teilaufgaben müssen im Wesentlichen bearbeitet werden:**
 
