@@ -1,27 +1,23 @@
 ## Projekt 3: **BaSyx Editor-Plugin-Erweiterung**
 
-Für das [BaSyx-GUI-Projekt](https://github.com/eclipse-basyx/basyx-aas-web-ui) gibt es bereits eine Reihe von [Anforderungen im Ticket-System](https://github.com/eclipse-basyx/basyx-applications/issues/240), welche als Anforderungsgrundlage verwendet werden sollen, u.A. 
-https://github.com/admin-shell-io/aas-specs-api/issues/286. 
+Für das [BaSyx-GUI-Projekt](https://github.com/eclipse-basyx/basyx-aas-web-ui) gibt es bereits eine Reihe von [Anforderungen im Ticket-System](https://github.com/eclipse-basyx/basyx-applications/issues/240), welche als Anforderungsgrundlage verwendet werden sollen.
+Eine spezifische Anforderung zur Erweiterung der REST-API kann über https://github.com/admin-shell-io/aas-specs-api/issues/286 eingesehen werden. 
 
-Für das vorliegende Projekt soll für das BaSyx-UI das AAS-Editor-Plugin und ggf. das REST-API-Backend erweitert werden: 
+Für das vorliegende Projekt soll für das BaSyx-UI das Editor-Plugin, das Viewer-Plugin und das REST-API-Backend erweitert werden: 
 ![image](https://github.com/user-attachments/assets/34d6e4bf-d1eb-443f-98cb-9d3f75068bf2)    
 
 **Es sollen folgende Anwendungsfälle unterstützt werden:**
-1. Externe Modell-Dateien sollen zur AAS hinzugefügt werden können. Nach einer Plausibilitätsprüfung soll eine definitionsgemäße Verlinkung mit passendem MimeType der ausgewählten Datei in der Verwaltungsschale erfolgen. Die REST-API soll erweitert werden (siehe https://github.com/admin-shell-io/aas-specs-api/issues/286), um in angehängte XML-Dateien "hineingreifen" zu können. 
+1. Externe Modell-Dateien sollen zur AAS hinzugefügt werden können. Nach einer Plausibilitätsprüfung soll eine definitionsgemäße Verlinkung mit passendem MimeType der ausgewählten Datei in der Verwaltungsschale erfolgen.
 2. Beim Hinzufügen einer KBL- oder VEC-Datei soll diese inhaltlich analysiert und die Nameplate-Informationen sowie relevante Technischen Daten (z.B. Gewicht, Features des Leitungssatzes) extrahiert und in das AAS-Submodel „[General Technical Data](https://github.com/admin-shell-io/submodel-templates/tree/main/published/Technical_Data/1/2)“ überführt werden können.
-3. JSON-Editor für die AAS mit Validierung vor dem Speichern
-4. Anzeige, Export, Import, Copy & Paste von JSON Bestandteilen sollen auf jeder Gliederungsebene der AAS möglich sein.
-5. Wizard zum Hinzufügen von Submodellen zu einer AAS verbessern.
-6. Submodell zu AAS hinzufügen.
-7. Der Submodell-Baum einer AAS soll angezeigt werden können. Inhaltlich noch nicht vollständig befüllte Submodelle oder Attribute sollen optisch hervorgehoben werden (z.B. rot markiert).
+3. Die REST-API soll erweitert werden (siehe https://github.com/admin-shell-io/aas-specs-api/issues/286), um in angehängte XML-Dateien "hineingreifen" zu können.
+4. Diese internen Inhalte sollen im Viewer angezeigt werden können. 
 
 **Folgende Teilaufgaben müssen im Wesentlichen bearbeitet werden:**
-
-1. Einarbeitung: Den [AASX-Explorer](https://github.com/eclipse-aaspe/package-explorer/releases) installieren und eine BaySyx-Infrastruktur [aufsetzen](https://basyx.org/get-started/introduction). Hierzu die vorhandenen Tutorials anwenden, bewerten und identifizierte Lücken in den Tutorials verbessern.
+1. Eine BaySyx-Infrastruktur [aufsetzen](https://basyx.org/get-started/introduction). Hierzu die vorhandenen Tutorials anwenden, bewerten und identifizierte Lücken in den Tutorials verbessern.
 2. Forken der benötigten [Basyx-Repositories](https://github.com/eclipse-basyx/basyx-aas-web-ui).
 3. Lokale Buildchain einrichten und beherrschen lernen: Änderungen vornehmen, Build-Prozess anstossen, sind die Änderungen sichtbar im lokalen Livesystem?
-4. Analyse des [BaSyx-UIs](https://wiki.basyx.org/en/latest/content/user_documentation/basyx_components/web_ui/index.html), Definition eines Usability-Konzeptes und Workflows für die Editor-Anwendungsfälle.
+4. Analyse des [BaSyx-UIs](https://wiki.basyx.org/en/latest/content/user_documentation/basyx_components/web_ui/index.html), Definition eines Usability-Konzeptes und Workflows für die Editor- und Viewer-Anwendungsfälle.
 5. Implementierung und Test der Funktionalitäten
 6. Hosting der Funktionalität auf einem über das Internet zugänglichen Demo-Server
-8. Erstellung und Verlinkung einer strukturierten Online-Benutzerdokumentation im BaSyx-Github.
-9. Akzeptanzfindung für die erstellte Lösung im Open-Source-Projekt herbeiführen
+7. Erstellung und Verlinkung einer strukturierten Online-Benutzerdokumentation im BaSyx-Github.
+8. Akzeptanzfindung für die erstellte Lösung im Open-Source-Projekt herbeiführen
