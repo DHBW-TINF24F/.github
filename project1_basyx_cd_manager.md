@@ -7,13 +7,12 @@ Das [Open-Source Projekt AAS-Brain](https://github.com/mhrimaz/aasbrain-concept-
 
 Das **BaSyx ConceptDescription-Plugin** (aka CD-Manager) soll ein webbasiertes UI bereitstellen, u.A. mit einer sortierbaren Listenansicht ähnlich wie hier:    
 
-<img width="1578" height="845" alt="image" src="https://github.com/user-attachments/assets/1b0df5f9-2a12-489e-8af2-a2c4fa53cb87" />    
+<img width="611" height="353" alt="image" src="https://github.com/user-attachments/assets/4a6c7414-e681-4571-97cc-7e36f62b74f9" />
 
 Ergänzend zu den typischen [CRUD-Funktionalitäten](https://de.wikipedia.org/wiki/CRUD) soll ein IEC-Importer implementiert werden, der einen kompletten IEC-CDD-Datensatz in das CD-Repository einlesen kann. 
 Hierzu soll die URL auf das entsprechende CDD-Merkmal (z.B. https://cdd.iec.ch/CDD/IEC61360/iec61360.nsf/PropertiesAllVersions/0112-2---61360_4%23AAE530) übergeben werden, dann ein Algorithmus die Inhalte der aufgerufenen Webseite extrahieren und in das Format des [DataSpecificationIec61360-Template](https://industrialdigitaltwin.io/aas-specifications/IDTA-01003-a/v3.1.1/index.html) überführen.
 
-<img width="2347" height="1220" alt="image" src="https://github.com/user-attachments/assets/cb7c3f4c-7fe1-4402-ac27-e008acc1e49f" />     
-
+<img width="634" height="491" alt="image" src="https://github.com/user-attachments/assets/fb6745e0-a731-428a-adef-291e25b0e0a6" />     
 
 **Folgende Teilaufgaben müssen dabei im Wesentlichen bearbeitet werden:**
 
