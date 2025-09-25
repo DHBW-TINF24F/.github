@@ -1,7 +1,9 @@
 ## Projekt 4: **Semantic Wikibase**
 
 Mittels [Konzeptbeschreibungen (Concept Description)](https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.2/spec-metamodel/concept-description.html) kann die AAS ein eigenes Wörterbuch definieren, das semantische Definitionen seiner Submodell-Elemente enthält, basierend auf der Data Specification der IEC 61360.   
-<img width="158" height="224" alt="image" src="https://github.com/user-attachments/assets/5928aecf-82ad-48fe-815f-f1e6fa0da4ca" />       
+
+<img width="474" height="610" alt="image" src="https://github.com/user-attachments/assets/5a2d741b-4bfa-4924-ac6c-170eb00cfddb" />
+
 Der aktuelle Ansatz weist jedoch Schwächen auf:
 - Das [IEC61360-Datentemplate](https://industrialdigitaltwin.io/aas-specifications/IDTA-01003-a/v3.1.1/index.html) ist jedoch nicht für alle Anwendungsfälle gleichermassen gut geeignet.
 - Ein CD-Repository ist üblicherweise an sein lokales AAS-Repository gebunden, d.h. nicht repositoryübergreifend anwendbar.
@@ -28,11 +30,12 @@ Es iit zu prüfen, ob auch der [SemanticHub von Catena-X](https://userguide.cofi
 - Entwicklung einer schlanken Spezifikation hierfür (Registry of Semantics, Prototyping-Plattform, Freigabeprozesse, Community/Governance, …)
 - Definition und Bereitstellung von Wikibase-Konfigurationen, die den Workflow optimal unterstützen 
 
-
 ### Folgende Teilaufgaben müssen im Wesentlichen bearbeitet werden:
 1. Einarbeitung in die Themen [AAS-Concept Descriptions](https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.2/spec-metamodel/concept-description.html) und [Wikibase](https://de.wikipedia.org/wiki/Wikibase).
-3. Dazu auch den [AASX-Explorer](https://github.com/eclipse-aaspe/package-explorer/releases) installieren.
-4. Analyse der Problemstellung (https://www.youtube.com/@aas-connect).
-2. Ist der SemanticHub von Catena-X evtl. eine geeignete Plattform ? https://userguide.cofinity-x.com/en/articles/312999-semantic-hub
-6. Akzeptanzfindung: Die erstellten Lösungen sollen in der Community vorgestellt werden.
-7. Test der Applikation gegen eine diverse AAS-Server-Infrastruktur.
+2. Dazu auch den [AASX-Explorer](https://github.com/eclipse-aaspe/package-explorer/releases) installieren.
+3. Analyse der Problemstellung (https://www.youtube.com/@aas-connect).
+4. Analyse der [REST-API](https://app.swaggerhub.com/apis/ECLASS_Standard/ECLASS_Download_JSON/2.0.3#/) des [ECLASS-Webservice](https://eclass.eu/eclass-standard/webservice).
+5. Ist der SemanticHub von Catena-X evtl. eine geeignete Plattform ? https://userguide.cofinity-x.com/en/articles/312999-semantic-hub
+6. Spezifikation einer REST-API für die SemanticWikibase, welche per Query-Parameter eine sprachabhängige Antwort basierend auf dem IEC61360-Datatemplate zurückliefert.
+7. Akzeptanzfindung: Die erstellten Lösungen sollen in der Community vorgestellt werden.
+8. Test der Applikation gegen eine diverse AAS-Server-Infrastruktur.
