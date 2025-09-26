@@ -9,6 +9,9 @@ Das **BaSyx ConceptDescription-Plugin** (aka CD-Manager) soll ein webbasiertes U
 
 <img width="611" height="353" alt="image" src="https://github.com/user-attachments/assets/4a6c7414-e681-4571-97cc-7e36f62b74f9" />
 
+Sowie einem Dialog zum editieren des jeweiligen Datensatz ähnlich wie hier:    
+<img width="1820" height="1775" alt="image" src="https://github.com/user-attachments/assets/4e9b2293-7181-4d90-95e2-3ad5a4bd646c" />     
+
 Ergänzend zu den typischen [CRUD-Funktionalitäten](https://de.wikipedia.org/wiki/CRUD) soll ein IEC-Importer implementiert werden, der einen kompletten IEC-CDD-Datensatz in das CD-Repository einlesen kann. 
 Hierzu soll die URL auf das entsprechende CDD-Merkmal (z.B. https://cdd.iec.ch/CDD/IEC61360/iec61360.nsf/PropertiesAllVersions/0112-2---61360_4%23AAE530) übergeben werden, dann ein Algorithmus die Inhalte der aufgerufenen Webseite extrahieren und in das Format des [DataSpecificationIec61360-Template](https://industrialdigitaltwin.io/aas-specifications/IDTA-01003-a/v3.1.1/specification.html) überführen.
 
