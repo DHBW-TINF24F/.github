@@ -4,7 +4,7 @@ Die sog. „Verwaltungsschale“ ([Asset Administration Shell](https://www.platt
 
 Im Rahmen der Aufgabe soll das [Produktkatalog-Feature](https://marketplace.arena2036.app/) des Open-Source-Projekt [Mnestix-Browser](https://github.com/eclipse-mnestix/mnestix-browser/tree/1.5.0-product-catalog) weiterentwickelt werden.
 
-<img width="4014" height="2195" alt="image" src="https://github.com/user-attachments/assets/b2cdd752-d044-4dde-8685-ab0266583dca" />
+<img width="2255" height="1802" alt="image" src="https://github.com/user-attachments/assets/a5380bd2-57de-4750-9e6e-5053cc0f5005" />
 
 Inhaltlich geht es dabei um einige Fehlerbehebungen, Featureerweiterungen sowie Usability-Verbesserungen:
 
