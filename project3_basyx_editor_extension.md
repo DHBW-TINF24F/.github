@@ -8,9 +8,9 @@ Für das vorliegende Projekt soll für das BaSyx-UI das Editor-Plugin, das Viewe
 
 **Es sollen folgende Anwendungsfälle unterstützt werden:**
 1. Externe Modell-Dateien sollen zur AAS hinzugefügt werden können. Nach einer Plausibilitätsprüfung soll eine definitionsgemäße Verlinkung mit passendem MimeType der ausgewählten Datei in der Verwaltungsschale erfolgen.
-2. Beim Hinzufügen einer KBL- oder VEC-Datei soll diese inhaltlich analysiert und die Nameplate-Informationen sowie relevante Technischen Daten (z.B. Gewicht, Features des Leitungssatzes) extrahiert und in das AAS-Submodel „[General Technical Data](https://github.com/admin-shell-io/submodel-templates/tree/main/published/Technical_Data/1/2)“ überführt werden können.
+2. Beim Hinzufügen einer KBL- oder VEC-Datei soll diese inhaltlich analysiert werden können um die Nameplate-Informationen sowie relevante Technischen Daten (z.B. Gewicht, Features des Leitungssatzes) zu extrahieren und in das AAS-Submodel „[General Technical Data](https://github.com/admin-shell-io/submodel-templates/tree/main/published/Technical_Data/1/2)“ zu überführen.
 3. Die REST-API soll erweitert werden (siehe https://github.com/admin-shell-io/aas-specs-api/issues/286), um in angehängte XML-Dateien "hineingreifen" zu können.
-4. Diese internen Inhalte sollen im Viewer angezeigt werden können. 
+4. Die internen Datenpunkte einer angehängten XML-Datei sollen strukturiert im Viewer angezeigt werden können. 
 
 **Folgende Teilaufgaben müssen im Wesentlichen bearbeitet werden:**
 1. Eine BaySyx-Infrastruktur [aufsetzen](https://basyx.org/get-started/introduction). Hierzu die vorhandenen Tutorials anwenden, bewerten und identifizierte Lücken in den Tutorials verbessern.
