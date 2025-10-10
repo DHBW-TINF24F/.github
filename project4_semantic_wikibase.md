@@ -21,7 +21,13 @@ Siehe auch die ergänzende [Guideline](https://industrialdigitaltwin.org/wp-cont
 [Wikibase](https://de.wikipedia.org/wiki/Wikibase) könnte eine geeignete Plattform sein, um die semantische Referenzierung für die AAS in der Breite zu etablieren. 
 URIs kann man frei über Rewrite-Rules auf dem Server definieren: https://www.semantic-mediawiki.org/wiki/Help:Pretty_URIs
 Ein Beispiel im Wiki: https://semanticid.aas-connect.com/w/index.php?title=Item:Q21&oldid=207, welches dieses IEC-Merkmal repliziert: https://cdd.iec.ch/cdd/iec61360/iec61360.nsf/PropertiesAllVersions/0112-2---61360_4%23AFD116 
-Es iit zu prüfen, ob auch der [SemanticHub von Catena-X](https://userguide.cofinity-x.com/en/articles/312999-semantic-hub) evtl. eine geeignete Plattform sein könnte. 
+
+<img width="3338" height="151" alt="image" src="https://github.com/user-attachments/assets/fd8795de-d478-4153-b28e-2b3eeb23df6f" />
+
+Siehe auch WikiData (z.B. millimetre – Wikidata, https://www.wikidata.org/wiki/Q174789 ), mit API-Verfügbarkeit (https://www.wikidata.org/wiki/Wikidata:REST_API , https://doc.wikimedia.org/Wikibase/master/js/rest-api/ )
+z.B. https://www.wikidata.org/w/rest.php/wikibase/v1/entities/items/Q174789?lang=de 
+
+Es kann auch geprüft werden, ob  der [SemanticHub von Catena-X](https://userguide.cofinity-x.com/en/articles/312999-semantic-hub) evtl. eine geeignete Plattform sein könnte. 
 
 ### Folgende Ziele sollen im Wesentlichen erreicht werden:
 - Hin zu auflösbaren URIs und webbasierten Services für semantische Referenzen!
