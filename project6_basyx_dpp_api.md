@@ -1,4 +1,4 @@
-## Projekt 6: ** API für den Digitalen Produktpass (DPP)**
+## Projekt 6: **API für den Digitalen Produktpass (DPP)**
 
 Die [DIN EN 18222](https://www.dinmedia.de/de/norm-entwurf/din-en-18222/393321021) **"Digitaler Produktpass - Programmierschnittstellen (APIs) für das Lebenszyklusmanagement und die Durchsuchbarkeit vom Produktpass"** beschreibt eine REST-API, welche im Rahmen dieser Aufgabe im BaSyx-Framework implementiert werden soll, sowohl Backend- als auch Frontendseitig. 
 
