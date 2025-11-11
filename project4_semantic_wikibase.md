@@ -1,4 +1,4 @@
-## Projekt 4: **Semantic Wikibase**
+## Projekt 4: **[Semantic Wikibase](https://github.com/DHBW-TINF24F/Team4-Semantic-Wikibase)**
 
 Mittels [Konzeptbeschreibungen (Concept Description)](https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.2/spec-metamodel/concept-description.html) kann die AAS ein eigenes Wörterbuch definieren, das semantische Definitionen seiner Submodell-Elemente enthält, basierend auf der Data Specification der IEC 61360.   
 
