@@ -130,38 +130,38 @@ Achten Sie auf die in der Vorlesung behandelten Themen Requirements Engineering 
 
 ## **Dokumentation**
 
-**Allgemeines**
+### **Allgemeines**
 
 - Lehnen Sie sich für die Gliederung von CRS uns SRS an die [IEEE-830](https://de.wikipedia.org/wiki/Software_Requirements_Specification)
 - Diese Gliederungsvorlage ist sehr allgemein. Es kann also sein, dass Sie nicht zu allen Punkten, die erwähnt sind, etwas zu schreiben haben.
 - Als Ablage wird die Verwendung des Projektwiki des Repositories (GitHub) empfohlen oder eine Struktur von Markdown-Dateien direkt im Repository. 
 - Erlaubte Sprachen für die Projektdokumention sind Deutsch und Englisch, für die SAS ist Englisch verpflichtend.
 
-**Ablage der Dokumente**
+### **Ablage der Dokumente**
 
-Bitte verwenden Sie für die Abgaben und im Repository (GitHub) **IMMER** folgendes Ablageschema. Denken Sie an die Versionierung der Dateien. Die Dateinamen sollen wie folgt aufgebaut sein:
+Bitte verwenden Sie für die Abgaben und im Repository (GitHub) **IMMER** folgendes Ablageschema. Denken Sie an die Versionierung der Dateien. Die Dateinamen sollen wie folgt aufgebaut sein, das "X" steht für die Projekt/Teamnummer:
 
-**TINF24F_CRS_Team_x_0v1**,
+**TINF24F_X-CRS-0v1**,
 
-**TINF24F_MOD_Team_x_Modulname_0v1**
+**TINF24F_X-MOD-Modulname-0v1**
 
 CRS, BC, SRS, SAS, MODs, STP, STR, Präsentationen und MeetingMinutes (bzw. Links auf deren Position im Wiki) hier ablegen (keine weiteren Unterverzeichnisse):
 
-**Team_x_Projektname\\PROJECT\\**
+**TeamX_Projektname\\PROJECT\\**
 
 Sourcecodedateien in den entsprechenden Unterstrukturen hier ablegen:
 
-**Team_x_Projektname\\SOURCE\\MOD_y_Modulname**
+**TeamX_Projektname\\SOURCE\\MODY_Modulname**
 
 Das entwickelte ausführbare Programm zusammen mit dem MANUAL hier ablegen:
 
-**Team_x_Projektname\\EXECUTABLE\\**
+**TeamX_Projektname\\EXECUTABLE\\**
 
 Bei der Übermittlung der Projektdateien in einem ZIP-Archiv müssen die oben geforderten Verzeichnisstrukturen enthalten sein. In jeder Übermittlung müssen auch die vorherigen bereits übermittelten Dateien miteingepackt sein, d.h. es soll immer ein vollständiger Projektordner übermittelt werden. **Das gibt Ihnen auch die Chance, ggf. noch Korrekturen bei den bereits abgegeben Dateien einzubringen. In dem Fall immer die Versionsnummer des Dokuments hochzählen.**
 
 Es sollen am Schluss alle Dokumente aus Semester 3 und 4 enthalten sein (die neuesten Versionen der Dokumente). 
 
-**Einzelne Dokumente / Items**
+### **Einzelne Dokumente / Items**
 
 | **CRS** |     |
 | --- | --- |
